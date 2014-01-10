@@ -60,20 +60,23 @@ html, body {
 }
 #navigation_main {
 	padding: 0px;
-	width: 600px;;
+	width: auto;
 	text-align: left;
 	list-style-type: none;
 	position: absolute;
 	height: 31px;
 	margin:0px;
 	float:left;
+	background-color: #000;
 }
 
 
-#navigation_main li { display: inline-block; height: 31px;padding: 0px;margin:0px;}
+#navigation_main li { display: inline-block; height: 31px;padding: 0px; margin:0px -2px 0px 0px;}
 
 #navigation_main li a
 {
+transition:background-color 1s ease-in-out;
+-webkit-transition:background-color 1s ease-in-out;
 text-decoration: none;
 color: #000;
 background-color: #fff;
@@ -83,10 +86,12 @@ padding:5px;
 min-width: 106px;
 text-align:center;
 padding-top:10px;
+padding-bottom:7px;
 }
 
 #navigation_main li a:hover
 {
+
 text-decoration: none;
 color: #fff;
 background-color: #000;
@@ -97,9 +102,8 @@ min-width: 106px;
 text-align:center;
 padding-top:10px;
 padding-bottom:7px;
+
 }
-
-
 
 
 
