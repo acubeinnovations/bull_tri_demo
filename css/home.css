@@ -1,0 +1,157 @@
+body {
+	background:url('../images/home/home-bg.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+html, body {
+    font-family: Arial,serif;
+    font-size: 12px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(57, 57, 57);
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    outline: medium none;
+}
+.container_outer{
+
+    font-family: Arial,serif;
+    font-size: 12px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+	background:url('../images/home/mesh.png') repeat ; 
+	overflow: hidden;
+}
+
+#logo{
+	display: block;
+	opacity: 1;
+	z-index: 996;
+	background: url("../images/home/logo.gif") no-repeat scroll left top transparent;
+	width: 165px;
+	height: 31px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navigation_container {
+    z-index: 199;
+	display:block;
+	left: 165px;
+	height: 31px;
+	width:100%;
+	bottom: 0px;
+	position: absolute;
+	background:#fff;
+	padding:0px;
+}
+#navigation_main {
+	padding: 0px;
+	width: 600px;;
+	text-align: left;
+	list-style-type: none;
+	position: absolute;
+	height: 31px;
+	margin:0px;
+	float:left;
+}
+
+
+#navigation_main li { display: inline-block; height: 31px;padding: 0px;margin:0px;}
+
+#navigation_main li a
+{
+text-decoration: none;
+color: #000;
+background-color: #fff;
+display: block;
+height: 31px
+padding:5px;
+min-width: 106px;
+text-align:center;
+padding-top:10px;
+}
+
+#navigation_main li a:hover
+{
+text-decoration: none;
+color: #fff;
+background-color: #000;
+display: block;
+height: 31px
+padding:5px;
+min-width: 106px;
+text-align:center;
+padding-top:10px;
+padding-bottom:7px;
+}
+
+
+
+
+
+
+
+
+#navigation_social {
+	padding: 0px;
+	width: 200px;;
+	text-align: left;
+	list-style-type: none;
+	position: absolute;
+	height: 31px;
+	margin:0px;
+	right:50px;
+
+}
+
+
+#navigation_social li { display: inline-block; height: 31px;padding: 0px;margin:0px;}
+
+#navigation_social li a
+{
+text-decoration: none;
+color: #000;
+background-color: #fff;
+display: block;
+height: 31px
+padding:1px;
+min-width: 20px;
+text-align:center;
+padding-top:10px;
+}
+
+#navigation_social li a:hover
+{
+text-decoration: none;
+color: #fff;
+background-color: #908c83;
+display: block;
+height: 31px
+padding:5px;
+min-width: 20px;
+text-align:center;
+padding-top:10px;
+padding-bottom:7px;
+}
+
+
+
+
+
+
+
+
